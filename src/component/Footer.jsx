@@ -21,13 +21,13 @@ export default function footer() {
               </a>
           </div>
           <div class=" gap-8 sm:gap-6  ">
-          {/* <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-1 "> */}
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-1 "> 
               <div className="mr-60">
                   <h4 class="mb-6  font-bold text-lg text-heading ">Contact Us</h4>
                   <h2 class="mb-6 text-2xl font-bold text-heading">Way To Contact Me</h2>
                   <p class="mb-6 text-2xl font-bold text-heading">If you'd like to work with me or discuss <br/> your project idea, i'd love to connect! <br/> You can contact me here:</p> 
               </div>
-
+              </div>
               </div>
          </div>
          <div className="flex gap-20 justify-center mt-10 ">

@@ -1,6 +1,7 @@
 
 import Header from './Header';
 import Footer from "./Footer.jsx";
+import Body from "./Body.jsx";
 
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
 
     <>
     <Header />
-    <Footer /> 
+    {/* <Body /> */}
+    {/* <Footer />  */}
     </>
     
     
