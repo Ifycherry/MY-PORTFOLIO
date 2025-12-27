@@ -150,7 +150,7 @@ export default function Header() {
               className="-m-2.5 rounded-md p-2.5 text-gray-400"
             >
               <span className="sr-only">Close menu</span>
-              <XMarkIcon aria-hidden="true" className="size-6" />
+              <XMarkIcon aria-hidden="true" className="size-6 text-white" />
             </button>
           </div>
           <div className="mt-6 flow-root">

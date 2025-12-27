@@ -10,8 +10,8 @@ export default function Footer() {
     <>
     
 
-<footer class="bg-neutral-primary-soft">
-    <div className='text-center'>
+<footer class="bg-gray-900">
+    <div className='text-center text-white'>
     <h3 class="mb-2 text-sm font-semibold text-heading uppercase">Contact Us</h3>
     <h1 class="mb-2 text-2xl font-bold ">Contact Us</h1>
     <p className='text-sm font-medium'>You can contact us anytime using the foolowing site below. We are always happy <br></br> to respond, collaborate and assist you when needed.Reach out to us, <br></br> and we will get back to you as soon as possible.</p>
@@ -22,7 +22,7 @@ export default function Footer() {
               {/* <a href="https://flowbite.com/" class="flex items-center"> */}
                   <img src={logo} class="h-14 me-3 w-19 " alt="Logo" />
                   {/* <img src="https://flowbite.com/docs/images/logo.svg" class="h-7 me-3" alt="Logo" /> */}
-                  <span class="text-heading self-center text-2xl font-semibold whitespace-nowrap mb-12">OKORO IFEANYI FRANCIS</span>
+                  <span class="text-heading self-center text-2xl font-semibold whitespace-nowrap mb-12 text-white">OKORO IFEANYI FRANCIS</span>
              {/* </a> */}
           </div>
           <div class="flex me-4 sm:justify-center sm:mt-0 items-center  ">
@@ -85,7 +85,7 @@ export default function Footer() {
       </div>
       <hr class="my-6 border-default sm:mx-auto lg:my-8 " />
       <div class="sm:flex sm:items-center sm:justify-between ">
-          <span class="text-sm text-body sm:text-center ml-96">© 2023 <a class="hover:underline">OKORO IFEANYI FRANCIS™</a>. All Rights Reserved.
+          <span class="text-sm text-body sm:text-center ml-96 text-white">© 2023 <a class="hover:underline">OKORO IFEANYI FRANCIS™</a>. All Rights Reserved.
           </span>
           {/* <div class="flex mt-4 sm:justify-center sm:mt-0">
             <a href="#" class="text-body hover:text-heading">
