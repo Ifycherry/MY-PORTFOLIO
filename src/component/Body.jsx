@@ -43,7 +43,7 @@ export default function Body() {
       { readmore && (
       <p className='text-white'> focus on building fast, user-friendly, and scalable<br/> web application i work with modern fronted tools like React and<br/> Tailwind CSS, and backend technologies such as Node.js,PHP(Laravel) plus<br/> databases like MongoDB and MYSQL. I enjoy turning ideas into reak products,<br/> solving problems with clean code, <br/>and continuously learning new technologies to improve my craft.</p> 
       )}
-      <button className='text-white' onClick={() => setReadmore(!readmore)}>{readmore ? "Read less" : "Read more"}</button>
+      <button className='text-orange-600' onClick={() => setReadmore(!readmore)}>{readmore ? "Read less" : "Read more"}</button>
     </span>
     </div>
 
