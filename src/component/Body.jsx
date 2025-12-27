@@ -9,7 +9,7 @@ export default function Body() {
   return (
     <>
   
-    <div className='flex  items-center justify-around gap-80 bg-gray-950 text-xl font-bold overflow-hidden'>
+    <div className='flex  items-center justify-around gap-80 bg-gray-950  overflow-hidden'>
       <div className='ml-12'>
       <h1 style = {{fontSize: '27px', fontweight: 600}}>
       <span className='font-bold text-blue-500'>
