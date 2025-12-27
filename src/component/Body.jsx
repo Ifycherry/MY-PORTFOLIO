@@ -34,7 +34,7 @@ export default function Body() {
     <div className='text-white'>
     <img src={phone} className='invert brightness-0' alt="phone" />
     </div>
-    <span>
+    <span className='text-center'>
 
       <h4 className='font-semibold text-white'>INTRODUCTION</h4>
       <h2 className='text-2xl font-medium text-white'>Full Stack Web <br/> Developer.</h2>
