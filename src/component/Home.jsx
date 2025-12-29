@@ -9,10 +9,13 @@ export default function Home() {
 
 
     <>
+    <div className='w-full'>
+
     <Header />
     <Body />
     <Body1 />
     <Footer /> 
+    </div>
     </>
     
     
