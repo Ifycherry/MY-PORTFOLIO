@@ -16,7 +16,7 @@ export default function Footer() {
     <h1 class="mb-2 text-2xl font-bold ">Contact Us</h1>
     <p className='text-sm font-medium'>You can contact us anytime using the foolowing site below. We are always happy <br></br> to respond, collaborate and assist you when needed.Reach out to us, <br></br> and we will get back to you as soon as possible.</p>
     </div>
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div class=" w-full  p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0 flex  ">
               {/* <a href="https://flowbite.com/" class="flex items-center"> */}

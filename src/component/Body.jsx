@@ -10,8 +10,8 @@ export default function Body() {
     <>
   
     <div className='flex flex-col md:flex-row items-center justify-around gap-20 bg-gray-950  overflow-hidden w-full min-h-screen mt-1'>
-      <div className='ml-12 min-h-[40px]'>
-      <h1 style = {{fontSize: '27px', fontweight: 600, minWidth: "300px"}}>
+      <div className='ml-12 min-h-[40px] '>
+      <h1 style = {{fontSize: '27px', fontweight: 600, minWidth: "360px"}}>
       <span className='font-bold text-blue-500'>
       <Typewriter
     // word={['OKORO IFEANYI FRANCIS.']}
@@ -40,9 +40,9 @@ export default function Body() {
     
     
     </div>
-    <div className='text-center'>
+    <div className='text-center '>
       {/* <div className='w-80 h-80 border-2 border-gray-900 rounded-full bg-gray-700 relative mb-40'></div> */}
-    <img src={profile} className='h-96 w-96  border-2 rounded-full border-gray-300 bg-gray-200 mr-32'  alt="profile" />
+    <img src={profile} className='h-96 w-96  border-2 rounded-full border-gray-300 bg-gray-200 mr-32   '  alt="profile" />
     </div>
     <span className='text-center mr-6'>
 
