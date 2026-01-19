@@ -7,7 +7,7 @@ export default function Body1() {
   const [readmore, setReadmore] = useState(false)
   return (
     <>
-    <div className='flex flex-col min-h-96  md:flex-row justify-around  text-center bg-gray-950 gap-4 overflow-x-hidden'>
+    <div className='flex flex-col min-h-96  md:flex-row justify-around  text-center bg-gray-950 gap-4 overflow-x-hidden w-full max-w-full'>
       <div className=''>
       <h1 className='text-4xl font-extrabold text-white'>About <span className='text-red-400'>Me</span></h1>
       <div className=' mt-2 text-white text-center  '>
