@@ -10,7 +10,7 @@ export default function Footer() {
     <>
     
 
-<footer class="bg-gray-900">
+<footer class="bg-gray-900 ">
     <div className='text-center text-white'>
     <h3 class="mb-2 text-sm font-semibold text-heading uppercase">Contact Us</h3>
     <h1 class="mb-2 text-2xl font-bold ">Contact Us</h1>
