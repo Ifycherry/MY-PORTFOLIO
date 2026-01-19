@@ -24,7 +24,7 @@ export default function Body1() {
         </p>
           )}
           <button className='text-orange-600' onClick={() => setReadmore(!readmore)}>{readmore ? "Read less" : "Read more"}</button>
-        <div className=' justify-center mt-8 gap-10 text-center mr-9'>
+        <div className='justify-center mt-8 gap-10 text-center mr-9'>
         <span className='flex justify-center gap-2 mt-5 '>
         <p className='border-2 rounded-lg border-red-400 bg-red-300 overflow-hidden w-16 h-8  p-1  text-yellow-50 '>HTML</p>
         <p className='border-2 rounded-lg border-red-400 bg-red-300 overflow-hidden w-16 h-8  p-1  text-yellow-50 '>CSS</p>
@@ -51,9 +51,6 @@ export default function Body1() {
         </span>
         </div>
       </div>
-      {/* <div id="fullWidthTabContent" class="border-t border-default">
-        <div class="hidden p-4 rounded-base md:p-8" id="stats" role="tabpanel" aria-labelledby="stats-tab">
-            <dl class="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-heading sm:grid-cols-3 xl:grid-cols-6 sm:p-8"> */}
             <div className='flex flex-wrap  gap-6  justify-center mt-6 h-auto max-h-[300px] object-cover'>
                 <div class="flex flex-col border-2 w-32 h-24  text-white">
                     <dt class="mb-2 text-2xl font-semibold tracking-tight text-heading">73M+</dt>
@@ -73,9 +70,7 @@ export default function Body1() {
                 </div>
                 </div>
               
-            {/* </dl>
-        </div>
-        </div> */}
+           
     </div>
 
     </>
