@@ -7,7 +7,7 @@ export default function Body1() {
   const [readmore, setReadmore] = useState(false)
   return (
     <>
-    <div className='flex flex-col min-h-96  md:flex-row justify-around  text-center bg-gray-950 gap-4 '>
+    <div className='flex flex-col min-h-96  md:flex-row justify-around  text-center bg-gray-950 gap-4 overflow-x-hidden'>
       <div className=''>
       <h1 className='text-4xl font-extrabold text-white'>About <span className='text-red-400'>Me</span></h1>
       <div className=' mt-2 text-white text-center  '>
@@ -24,7 +24,7 @@ export default function Body1() {
         </p>
           )}
           <button className='text-orange-600' onClick={() => setReadmore(!readmore)}>{readmore ? "Read less" : "Read more"}</button>
-        <div className=' justify-center mt-8 gap-10 text-center mr-9 h-auto '>
+        <div className=' justify-center mt-8 gap-10 text-center mr-9  '>
         <span className='flex justify-center gap-2 mt-5 '>
         <p className='border-2 rounded-lg border-red-400 bg-red-300 overflow-hidden w-16 h-8  p-1  text-yellow-50 '>HTML</p>
         <p className='border-2 rounded-lg border-red-400 bg-red-300 overflow-hidden w-16 h-8  p-1  text-yellow-50 '>CSS</p>
