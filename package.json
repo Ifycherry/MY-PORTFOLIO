@@ -2,6 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "./",
   "dependencies": {
     "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
@@ -28,6 +29,7 @@
     "extends": [
       "react-app",
       "react-app/jest"
+      
     ]
   },
   "browserslist": {
@@ -53,5 +55,8 @@
   },
   "eslint ": {
     "ignoreDuringBuilding": "true"
-  }
+  },
+  "prisma": {
+  "schema": "db/schema.prisma"
+}
 }
